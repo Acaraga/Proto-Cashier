@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C406C5501E8A807400237CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C54F1E8A807400237CB4 /* AppDelegate.swift */; };
+		C406C5521E8A807400237CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C5511E8A807400237CB4 /* ViewController.swift */; };
+		C406C5571E8A807400237CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C406C5561E8A807400237CB4 /* Assets.xcassets */; };
+		C406C55A1E8A807400237CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C406C5581E8A807400237CB4 /* LaunchScreen.storyboard */; };
+		C406C5621E8A813400237CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C406C5611E8A813400237CB4 /* Main.storyboard */; };
+		C406C5651E8A816600237CB4 /* Gears-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C406C5631E8A816600237CB4 /* Gears-128.png */; };
+		C406C5681E8A832D00237CB4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C5671E8A832D00237CB4 /* StartViewController.swift */; };
+		C406C56A1E8A834600237CB4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C5691E8A834600237CB4 /* SettingsViewController.swift */; };
+		C406C56C1E8A835600237CB4 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C56B1E8A835600237CB4 /* QRViewController.swift */; };
+		C406C56E1E8A836900237CB4 /* CalcsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C56D1E8A836900237CB4 /* CalcsViewController.swift */; };
+		C406C5701E8A874D00237CB4 /* FilePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C56F1E8A874D00237CB4 /* FilePlist.swift */; };
+		C406C5741E8A92B000237CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C406C5731E8A92B000237CB4 /* GoogleService-Info.plist */; };
+		C474EC9E1E8B1ECB0090ED91 /* scanme3d-200.png in Resources */ = {isa = PBXBuildFile; fileRef = C474EC9D1E8B1ECB0090ED91 /* scanme3d-200.png */; };
+		C474ECA21E8B24780090ED91 /* ExtFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474ECA11E8B24780090ED91 /* ExtFile.swift */; };
+		C474ECA41E8B288B0090ED91 /* scanme3d2-200.png in Resources */ = {isa = PBXBuildFile; fileRef = C474ECA31E8B288B0090ED91 /* scanme3d2-200.png */; };
+		E9FDD749A25D50DCE82C7D82 /* Pods_SmartBit_Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED35A6D8CEA77055F6EC69 /* Pods_SmartBit_Cashier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29836AF3790B15C1A9E60E60 /* Pods-SmartBit Cashier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBit Cashier.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartBit Cashier/Pods-SmartBit Cashier.release.xcconfig"; sourceTree = "<group>"; };
+		47ED35A6D8CEA77055F6EC69 /* Pods_SmartBit_Cashier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartBit_Cashier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C406C54C1E8A807400237CB4 /* SmartBit Cashier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartBit Cashier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C406C54F1E8A807400237CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C406C5511E8A807400237CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C406C5561E8A807400237CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C406C5591E8A807400237CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C406C55B1E8A807400237CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C406C5611E8A813400237CB4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C406C5631E8A816600237CB4 /* Gears-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gears-128.png"; sourceTree = "<group>"; };
+		C406C5671E8A832D00237CB4 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C406C5691E8A834600237CB4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C406C56B1E8A835600237CB4 /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		C406C56D1E8A836900237CB4 /* CalcsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcsViewController.swift; sourceTree = "<group>"; };
+		C406C56F1E8A874D00237CB4 /* FilePlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePlist.swift; sourceTree = "<group>"; };
+		C406C5731E8A92B000237CB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C474EC9D1E8B1ECB0090ED91 /* scanme3d-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanme3d-200.png"; sourceTree = "<group>"; };
+		C474ECA11E8B24780090ED91 /* ExtFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtFile.swift; sourceTree = "<group>"; };
+		C474ECA31E8B288B0090ED91 /* scanme3d2-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanme3d2-200.png"; sourceTree = "<group>"; };
+		C4C88CF651203EBB4D75F59C /* Pods-SmartBit Cashier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBit Cashier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartBit Cashier/Pods-SmartBit Cashier.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C406C5491E8A807300237CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FDD749A25D50DCE82C7D82 /* Pods_SmartBit_Cashier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440EB6CCADF297446B559694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47ED35A6D8CEA77055F6EC69 /* Pods_SmartBit_Cashier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50888450F628D44362FF7AC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4C88CF651203EBB4D75F59C /* Pods-SmartBit Cashier.debug.xcconfig */,
+				29836AF3790B15C1A9E60E60 /* Pods-SmartBit Cashier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C406C5431E8A807300237CB4 = {
+			isa = PBXGroup;
+			children = (
+				C406C54E1E8A807400237CB4 /* SmartBit Cashier */,
+				C406C54D1E8A807400237CB4 /* Products */,
+				50888450F628D44362FF7AC0 /* Pods */,
+				440EB6CCADF297446B559694 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C406C54D1E8A807400237CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C406C54C1E8A807400237CB4 /* SmartBit Cashier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C406C54E1E8A807400237CB4 /* SmartBit Cashier */ = {
+			isa = PBXGroup;
+			children = (
+				C406C54F1E8A807400237CB4 /* AppDelegate.swift */,
+				C474ECA11E8B24780090ED91 /* ExtFile.swift */,
+				C406C5511E8A807400237CB4 /* ViewController.swift */,
+				C406C5671E8A832D00237CB4 /* StartViewController.swift */,
+				C406C5691E8A834600237CB4 /* SettingsViewController.swift */,
+				C406C56B1E8A835600237CB4 /* QRViewController.swift */,
+				C406C56D1E8A836900237CB4 /* CalcsViewController.swift */,
+				C406C56F1E8A874D00237CB4 /* FilePlist.swift */,
+				C406C5611E8A813400237CB4 /* Main.storyboard */,
+				C406C5561E8A807400237CB4 /* Assets.xcassets */,
+				C406C5581E8A807400237CB4 /* LaunchScreen.storyboard */,
+				C406C55B1E8A807400237CB4 /* Info.plist */,
+				C406C5731E8A92B000237CB4 /* GoogleService-Info.plist */,
+				C474EC9D1E8B1ECB0090ED91 /* scanme3d-200.png */,
+				C474ECA31E8B288B0090ED91 /* scanme3d2-200.png */,
+				C406C5631E8A816600237CB4 /* Gears-128.png */,
+			);
+			path = "SmartBit Cashier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C406C54B1E8A807300237CB4 /* SmartBit Cashier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C406C55E1E8A807400237CB4 /* Build configuration list for PBXNativeTarget "SmartBit Cashier" */;
+			buildPhases = (
+				D6C59413AF79301BDA23446D /* [CP] Check Pods Manifest.lock */,
+				C406C5481E8A807300237CB4 /* Sources */,
+				C406C5491E8A807300237CB4 /* Frameworks */,
+				C406C54A1E8A807300237CB4 /* Resources */,
+				83A28C9DD6ACE66471314D7B /* [CP] Embed Pods Frameworks */,
+				50901143739451A614EEEF5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartBit Cashier";
+			productName = "SmartBit Cashier";
+			productReference = C406C54C1E8A807400237CB4 /* SmartBit Cashier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C406C5441E8A807300237CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					C406C54B1E8A807300237CB4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JAJ58996GT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C406C5471E8A807300237CB4 /* Build configuration list for PBXProject "SmartBit Cashier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C406C5431E8A807300237CB4;
+			productRefGroup = C406C54D1E8A807400237CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C406C54B1E8A807300237CB4 /* SmartBit Cashier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C406C54A1E8A807300237CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C406C55A1E8A807400237CB4 /* LaunchScreen.storyboard in Resources */,
+				C474EC9E1E8B1ECB0090ED91 /* scanme3d-200.png in Resources */,
+				C406C5571E8A807400237CB4 /* Assets.xcassets in Resources */,
+				C406C5651E8A816600237CB4 /* Gears-128.png in Resources */,
+				C406C5621E8A813400237CB4 /* Main.storyboard in Resources */,
+				C474ECA41E8B288B0090ED91 /* scanme3d2-200.png in Resources */,
+				C406C5741E8A92B000237CB4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50901143739451A614EEEF5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartBit Cashier/Pods-SmartBit Cashier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A28C9DD6ACE66471314D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartBit Cashier/Pods-SmartBit Cashier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C59413AF79301BDA23446D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C406C5481E8A807300237CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C406C5521E8A807400237CB4 /* ViewController.swift in Sources */,
+				C474ECA21E8B24780090ED91 /* ExtFile.swift in Sources */,
+				C406C56C1E8A835600237CB4 /* QRViewController.swift in Sources */,
+				C406C5701E8A874D00237CB4 /* FilePlist.swift in Sources */,
+				C406C5501E8A807400237CB4 /* AppDelegate.swift in Sources */,
+				C406C56E1E8A836900237CB4 /* CalcsViewController.swift in Sources */,
+				C406C5681E8A832D00237CB4 /* StartViewController.swift in Sources */,
+				C406C56A1E8A834600237CB4 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C406C5581E8A807400237CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C406C5591E8A807400237CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C406C55C1E8A807400237CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C406C55D1E8A807400237CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C406C55F1E8A807400237CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C88CF651203EBB4D75F59C /* Pods-SmartBit Cashier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JAJ58996GT;
+				INFOPLIST_FILE = "SmartBit Cashier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift3.SmartBit-Cashier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C406C5601E8A807400237CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29836AF3790B15C1A9E60E60 /* Pods-SmartBit Cashier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JAJ58996GT;
+				INFOPLIST_FILE = "SmartBit Cashier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift3.SmartBit-Cashier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C406C5471E8A807300237CB4 /* Build configuration list for PBXProject "SmartBit Cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C406C55C1E8A807400237CB4 /* Debug */,
+				C406C55D1E8A807400237CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C406C55E1E8A807400237CB4 /* Build configuration list for PBXNativeTarget "SmartBit Cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C406C55F1E8A807400237CB4 /* Debug */,
+				C406C5601E8A807400237CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C406C5441E8A807300237CB4 /* Project object */;
+}
