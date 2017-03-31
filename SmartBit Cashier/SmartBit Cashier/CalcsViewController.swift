@@ -28,6 +28,8 @@ var opCash : Double? = nil
 
 var currentUserKey = ""
 var currentQrKey = ""
+var currentFCMtoken = ""
+
 
 let aquaColor : UIColor = UIColor.init(red: 15.0/255, green: 128.0/255, blue: 255.0/255, alpha: 1.0)
 
@@ -154,7 +156,7 @@ class CalcsViewController: UIViewController, UITextViewDelegate {
                         let code = sub2json["qrcode"].stringValue
                         let nick = sub2json["nick"].stringValue
                         let operated = sub2json["operated"].stringValue
-
+         
                         if  code == String(promoCode!) && operated == "" {
                         currentUserKey = ukey
                         currentQrKey = qrkey
@@ -173,6 +175,9 @@ class CalcsViewController: UIViewController, UITextViewDelegate {
                             self.navClientName.title = nick
                             self.txtSumm.isUserInteractionEnabled = true
                     
+                        })
+                        self.getUserFCMTokenByKey(key: ukey, complition: { (tokenFCM) in
+                            currentFCMtoken = tokenFCM
                         })
                         }
                     }
@@ -295,8 +300,25 @@ class CalcsViewController: UIViewController, UITextViewDelegate {
             print ("*** AND The Balance for me is: \(sumBalance)")
         })
     }
-   
-    
+
+//============вычисление  tokenFCM пользователя по ключу===================
+func getUserFCMTokenByKey (key: String, complition: @escaping (String) -> ()) -> () {
+//=======================================================================
+    var tokenFCM = ""
+    var lastDate = ""
+    FIRDatabase.database().reference().child("users/\(key)/tokenFCM").observeSingleEvent(of: .value, with: { (snapshot) in
+        
+        if let u_value = snapshot.value {
+            let json = JSON (u_value)
+                lastDate = json["date"].stringValue
+                tokenFCM = json["token"].stringValue
+        }
+        complition (tokenFCM)
+        print ("*** Found tokenFCM: \(tokenFCM)")
+        print ("*** Last Login: \(lastDate)")
+    })
+    }
+
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     func ClearFields() {
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -363,6 +385,20 @@ class CalcsViewController: UIViewController, UITextViewDelegate {
     //  print (resp)
         let scoresGet = opCash! * (Double(levelBase)! / 100)
         if setCode4bonusOperated(ukey: currentUserKey, qrkey: currentQrKey) {
+            
+            //============================ send PUSH to client ==================
+            if currentFCMtoken != ""
+            {
+                let manager = ManagerData()
+                let token = currentFCMtoken
+                
+                manager.sendFCM(toToken: token, title: "Спасибо что вы с нами!", body: "Потрачено \(scoresPay!) баллов, начислено \(scoresGet) баллов", complition: {  (strId, sucDbl) in
+                    print ("*** message_id: \(strId) ,  Success: \(sucDbl)")
+                })
+            }
+            //=====================================================================
+        
+            
             let alert = UIAlertController(title: "Операция успешно проведена", message: "Потрачено \(scoresPay!) баллов, начислено \(scoresGet) баллов", preferredStyle: .alert)
             
             let cancelAction: UIAlertAction = UIAlertAction(title: "ок", style: .cancel) { action -> Void in

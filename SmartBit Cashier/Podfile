@@ -6,7 +6,7 @@ target ‘SmartBit Cashier’ do
   use_frameworks!
 
   # Pods for SmartBit Cashier
-#pod 'Alamofire', '~> 4.1’
+pod 'Alamofire'
 #pod 'RealmSwift', '~> 2.0'
 pod 'Firebase'
 pod 'Firebase/Core'

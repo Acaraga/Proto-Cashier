@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2683E64DD7F5FCE55731ECE34BD87655"
+               BlueprintIdentifier = "5301540F83092DEF50BC0B41E3CD6607"
                BuildableName = "Pods_SmartBit_Cashier.framework"
                BlueprintName = "Pods-SmartBit Cashier"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2683E64DD7F5FCE55731ECE34BD87655"
+            BlueprintIdentifier = "5301540F83092DEF50BC0B41E3CD6607"
             BuildableName = "Pods_SmartBit_Cashier.framework"
             BlueprintName = "Pods-SmartBit Cashier"
             ReferencedContainer = "container:Pods.xcodeproj">

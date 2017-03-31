@@ -19,6 +19,7 @@
 		C406C56E1E8A836900237CB4 /* CalcsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C56D1E8A836900237CB4 /* CalcsViewController.swift */; };
 		C406C5701E8A874D00237CB4 /* FilePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C406C56F1E8A874D00237CB4 /* FilePlist.swift */; };
 		C406C5741E8A92B000237CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C406C5731E8A92B000237CB4 /* GoogleService-Info.plist */; };
+		C436955B1E8E49AF004232BF /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C436955A1E8E49AF004232BF /* ManagerData.swift */; };
 		C474EC9E1E8B1ECB0090ED91 /* scanme3d-200.png in Resources */ = {isa = PBXBuildFile; fileRef = C474EC9D1E8B1ECB0090ED91 /* scanme3d-200.png */; };
 		C474ECA21E8B24780090ED91 /* ExtFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474ECA11E8B24780090ED91 /* ExtFile.swift */; };
 		C474ECA41E8B288B0090ED91 /* scanme3d2-200.png in Resources */ = {isa = PBXBuildFile; fileRef = C474ECA31E8B288B0090ED91 /* scanme3d2-200.png */; };
@@ -42,6 +43,7 @@
 		C406C56D1E8A836900237CB4 /* CalcsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcsViewController.swift; sourceTree = "<group>"; };
 		C406C56F1E8A874D00237CB4 /* FilePlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePlist.swift; sourceTree = "<group>"; };
 		C406C5731E8A92B000237CB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C436955A1E8E49AF004232BF /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
 		C474EC9D1E8B1ECB0090ED91 /* scanme3d-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanme3d-200.png"; sourceTree = "<group>"; };
 		C474ECA11E8B24780090ED91 /* ExtFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtFile.swift; sourceTree = "<group>"; };
 		C474ECA31E8B288B0090ED91 /* scanme3d2-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanme3d2-200.png"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				C406C5691E8A834600237CB4 /* SettingsViewController.swift */,
 				C406C56B1E8A835600237CB4 /* QRViewController.swift */,
 				C406C56D1E8A836900237CB4 /* CalcsViewController.swift */,
+				C436955A1E8E49AF004232BF /* ManagerData.swift */,
 				C406C56F1E8A874D00237CB4 /* FilePlist.swift */,
 				C406C5611E8A813400237CB4 /* Main.storyboard */,
 				C406C5561E8A807400237CB4 /* Assets.xcassets */,
@@ -248,6 +251,7 @@
 			files = (
 				C406C5521E8A807400237CB4 /* ViewController.swift in Sources */,
 				C474ECA21E8B24780090ED91 /* ExtFile.swift in Sources */,
+				C436955B1E8E49AF004232BF /* ManagerData.swift in Sources */,
 				C406C56C1E8A835600237CB4 /* QRViewController.swift in Sources */,
 				C406C5701E8A874D00237CB4 /* FilePlist.swift in Sources */,
 				C406C5501E8A807400237CB4 /* AppDelegate.swift in Sources */,

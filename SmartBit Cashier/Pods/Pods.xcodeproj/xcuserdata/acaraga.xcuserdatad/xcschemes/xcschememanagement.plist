@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>17749370954378699463B37B4A528AA1</key>
+		<key>5301540F83092DEF50BC0B41E3CD6607</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2683E64DD7F5FCE55731ECE34BD87655</key>
+		<key>7997B6B91FF96538ED08600874F5589A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>

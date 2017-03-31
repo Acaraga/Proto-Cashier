@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.4.0)
   - Firebase (3.13.0):
     - Firebase/Core (= 3.13.0)
   - Firebase/Core (3.13.0):
@@ -22,12 +23,14 @@ PODS:
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase
   - Firebase/Core
   - Firebase/Database
   - SwiftyJSON (~> 3.1)
 
 SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Firebase: 5bc34d7b5ff5792e3386c8b28dc6265deeab0da4
   FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
   FirebaseCore: 1c0a13bf59bb95cdd19577252499f0ec6a03e999
@@ -36,6 +39,6 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 93a3d6ef03904707bd5a45907362db146393b222
+PODFILE CHECKSUM: c2ac1a0f105176c526318f160edd7b03fa1d4f28
 
 COCOAPODS: 1.2.0
