@@ -157,7 +157,7 @@
 					C406C54B1E8A807300237CB4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = JAJ58996GT;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -377,6 +377,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swift3.SmartBit-Cashier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41118571-0583-45b1-9c0a-426adc94ad44";
+				PROVISIONING_PROFILE_SPECIFIER = "SmartBit Cashier";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -386,12 +388,15 @@
 			baseConfigurationReference = 29836AF3790B15C1A9E60E60 /* Pods-SmartBit Cashier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = JAJ58996GT;
 				INFOPLIST_FILE = "SmartBit Cashier/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swift3.SmartBit-Cashier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5c9eb02b-1a0b-4170-9881-03659b74dc7f";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: swift3.SmartBit-Cashier";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
